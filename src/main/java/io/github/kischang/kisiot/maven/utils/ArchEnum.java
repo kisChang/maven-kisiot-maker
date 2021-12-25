@@ -1,4 +1,4 @@
-package io.kischang.kisiot.maven.utils;
+package io.github.kischang.kisiot.maven.utils;
 
 /**
  * @author KisChang
