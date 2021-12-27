@@ -8,7 +8,7 @@ Base on: https://github.com/kisChang/raspi-os-frame
 ```
 1. add plugin (添加 Plugin)
 <plugin>
-    <groupId>io.kischang.kisiot.maven</groupId>
+    <groupId>io.github.kischang.kisiot.maven</groupId>
     <artifactId>maven-kisiot-maker</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <configuration>
