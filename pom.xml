@@ -2,12 +2,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.kischang.kisiot.maven</groupId>
-    <artifactId>maven-kisiot-maker</artifactId>
+    <groupId>io.github.kischang.kisiot</groupId>
+    <artifactId>kisiot-parent</artifactId>
 
-    <packaging>maven-plugin</packaging>
+    <packaging>pom</packaging>
     <version>0.1.0-SNAPSHOT</version>
-    <name>maven-kisiot-maker</name>
+    <modules>
+        <module>kisiot-maven-maker</module>
+        <module>kisiot-updater</module>
+    </modules>
+
+    <name>kisiot-parent</name>
 
     <description>
         Raspberry Pi alpine IMAGE maven build plugin
@@ -28,37 +33,6 @@
         </developer>
     </developers>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.6</version>
-            <scope>compile</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.maven</groupId>
-            <artifactId>maven-plugin-api</artifactId>
-            <version>3.6.3</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven.plugin-tools</groupId>
-            <artifactId>maven-plugin-annotations</artifactId>
-            <version>3.6.0</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.maven</groupId>
-            <artifactId>maven-project</artifactId>
-            <version>2.2.1</version>
-        </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
     <build>
         <plugins>
             <plugin>
