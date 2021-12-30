@@ -4,12 +4,12 @@ Raspberry Pi alpine linux img maven build plugin
 Base on: https://github.com/raspi-alpine/builder    
 Base on: https://github.com/kisChang/raspi-os-frame   
 
-### 使用方式
+### ROM 打包的 使用方式
 ```
 1. add plugin (添加 Plugin)
 <plugin>
-    <groupId>io.github.kischang.kisiot.maven</groupId>
-    <artifactId>maven-kisiot-maker</artifactId>
+    <groupId>io.github.kischang.kisiot</groupId>
+    <artifactId>kisiot-maven-maker</artifactId>
     <version>0.1.0-SNAPSHOT</version>
     <configuration>
         <!--国内使用git镜像加快构建-->
@@ -27,4 +27,17 @@ ${build.finalName}.img.gz
 ${build.finalName}.img.gz.sha256
 ${build.finalName}_update.img.gz
 ${build.finalName}_update.img.gz.sha256
+```
+
+### ROM 更新工具包的使用方式
+```
+1. add dependency (添加依赖)
+<dependency>
+    <groupId>io.github.kischang.kisiot</groupId>
+    <artifactId>kisiot-updater</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+</dependency>
+
+2. TODO
+
 ```
