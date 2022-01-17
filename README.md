@@ -8,9 +8,9 @@ Base on: https://github.com/kisChang/raspi-os-frame
 ```
 1. add plugin (添加 Plugin)
 <plugin>
-    <groupId>io.github.kischang.kisiot</groupId>
+    <groupId>com.github.kischang.kisiot</groupId>
     <artifactId>kisiot-maven-maker</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1.1-SNAPSHOT</version>
     <configuration>
         <!--国内使用git镜像加快构建-->
         <mirrorRpiGit>https://github.com.cnpmjs.org/raspberrypi/firmware</mirrorRpiGit>
