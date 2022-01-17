@@ -77,6 +77,9 @@
                     <artifactId>maven-javadoc-plugin</artifactId>
                     <version>3.2.0</version>
                     <configuration>
+                        <additionalJOptions>
+                            <additionalJOption>-Xdoclint:none</additionalJOption>
+                        </additionalJOptions>
                         <show>private</show>
                         <nohelp>true</nohelp>
                         <charset>UTF-8</charset>
