@@ -1,7 +1,7 @@
-package io.github.kischang.kisiot.maven;
+package com.github.kischang.kisiot.maven;
 
-import io.github.kischang.kisiot.maven.utils.ArchEnum;
-import io.github.kischang.kisiot.maven.utils.FileUtils;
+import com.github.kischang.kisiot.maven.utils.ArchEnum;
+import com.github.kischang.kisiot.maven.utils.FileUtils;
 import org.apache.maven.plugin.AbstractMojo;
 import org.apache.maven.plugins.annotations.*;
 import org.apache.maven.project.MavenProject;

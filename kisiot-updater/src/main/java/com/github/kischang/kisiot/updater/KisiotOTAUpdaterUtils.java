@@ -1,4 +1,4 @@
-package io.github.kischang.kisiot.updater;
+package com.github.kischang.kisiot.updater;
 
 /**
  * IOT OTA工具类

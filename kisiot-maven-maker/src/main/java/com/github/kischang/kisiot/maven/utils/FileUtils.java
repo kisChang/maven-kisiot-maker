@@ -1,4 +1,4 @@
-package io.github.kischang.kisiot.maven.utils;
+package com.github.kischang.kisiot.maven.utils;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
